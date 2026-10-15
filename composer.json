@@ -1,0 +1,48 @@
+{
+    "name": "zanbug/yii2",
+    "description": "Zanbug error & monitoring SDK — Yii2 extension that auto-captures exceptions.",
+    "type": "yii2-extension",
+    "keywords": [
+        "zanbug",
+        "error-monitoring",
+        "yii2",
+        "yii",
+        "error-tracking",
+        "monitoring",
+        "exceptions"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zanbug",
+            "email": "dev@zanbug.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "zanbug/php-sdk": "^2.0.0",
+        "yiisoft/yii2": ">=2.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../php-sdk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zanbug\\Yii2\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "homepage": "https://zanbug.com",
+    "support": {
+        "issues": "https://github.com/zanbug/yii2/issues",
+        "docs": "https://zanbug.com/integrations/yii2",
+        "source": "https://github.com/zanbug/yii2"
+    }
+}
