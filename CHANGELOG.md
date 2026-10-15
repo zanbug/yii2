@@ -1,0 +1,21 @@
+# Changelog — zanbug/yii2
+
+## 2.0.4 — 2026-10-15
+
+- Core 2.0.4 ilə eyni versiya: manual auto-update ext-zip olmadan (tar.gz) işləyir və yanında qurulmuş adapteri də yeniləyir. Adapter kodu dəyişməyib.
+
+## 2.0.3 — 2026-10-15
+
+- Core 2.0.3 ilə eyni versiya: auto-update Composer 2-ni seçir (Composer 1 Packagist-dən paket tapa bilmir) və yeniləmə vəziyyətini panelə bildirir. Adapter kodu dəyişməyib.
+
+## 2.0.2 — 2026-10-15
+
+- Core 2.0.2 ilə eyni versiya: `zanbug:update` path repo (symlink) layihəsində composer xətası yox, aydın mesaj; production-da `--update-no-dev`. Adapter kodu dəyişməyib.
+
+## 2.0.1 — 2026-10-08
+
+- Core 2.0.1 ilə eyni versiya: yavaş sorğuda dəqiq çağıran + çağırış zənciri (`trace`), CLI-də ikinci init run-u itirmir. Adapter kodu dəyişməyib.
+
+## 2.0.0 — 2026-10-07
+
+- 2.0.0 — paket zanbug/* adına keçdi; namespace Zanbug\, env ZANBUG_*; köhnə env adları hələ fallback kimi oxunur
